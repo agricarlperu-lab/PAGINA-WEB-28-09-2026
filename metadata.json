@@ -1,0 +1,8 @@
+{
+  "name": "AGRICARL PAGINA WEB 28 - 09",
+  "description": "Landing page oficial de AGRICARL PERÚ S.A.C. - Suministro de materias primas de la Amazonía y gestión de recaudación financiera COBRAGOOD.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

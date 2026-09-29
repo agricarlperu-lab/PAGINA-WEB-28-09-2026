@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #14231b;
+  --color-brand-green: #059669;
+  --color-brand-green-dark: #064e3b;
+  --color-brand-pink-accent: #db2777;
+  --color-brand-light: #f8fafc;
+}
+
+@layer utilities {
+  .bg-brand-dark {
+    background-color: #14231b;
+  }
+  .bg-brand-green {
+    background-color: #059669;
+  }
+  .bg-brand-green-dark {
+    background-color: #064e3b;
+  }
+  .bg-brand-pink-accent {
+    background-color: #db2777;
+  }
+  .bg-brand-light {
+    background-color: #f8fafc;
+  }
+
+  .text-brand-dark {
+    color: #14231b;
+  }
+  .text-brand-green {
+    color: #059669;
+  }
+  .text-brand-green-dark {
+    color: #064e3b;
+  }
+  .text-brand-pink-accent {
+    color: #db2777;
+  }
+
+  .border-brand-green {
+    border-color: #059669;
+  }
+  .border-brand-green-dark {
+    border-color: #064e3b;
+  }
+
+  .bg-architectural-grid {
+    background-image: 
+      linear-gradient(to right, rgba(16, 185, 129, 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(16, 185, 129, 0.08) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .bg-architectural-grid-dark {
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+
+  .bg-architectural-dots {
+    background-image: radial-gradient(rgba(16, 185, 129, 0.15) 1.5px, transparent 1.5px);
+    background-size: 24px 24px;
+  }
+
+  /* Textura de Tableta de Chocolate Realista para Encabezado y Pie de Página */
+  .bg-chocolate-tablet-large {
+    background-color: #231007 !important;
+    background-image: 
+      /* Resalte superior de luz en cada tableta */
+      linear-gradient(to bottom, rgba(255, 220, 180, 0.22) 1.5px, transparent 1.5px),
+      /* Sombra inferior profunda en cada tableta */
+      linear-gradient(to top, rgba(0, 0, 0, 0.85) 3px, transparent 3px),
+      /* Resalte izquierdo de luz */
+      linear-gradient(to right, rgba(255, 220, 180, 0.16) 1.5px, transparent 1.5px),
+      /* Sombra derecha profunda */
+      linear-gradient(to left, rgba(0, 0, 0, 0.75) 3px, transparent 3px),
+      /* Ranura de quiebre entre tabletas (canales de separación) */
+      linear-gradient(to right, #0d0402 4px, transparent 4px),
+      linear-gradient(to bottom, #0d0402 4px, transparent 4px),
+      /* Relieve diagonal 3D interior de la tableta */
+      linear-gradient(135deg, rgba(255, 240, 220, 0.08) 0%, transparent 45%, rgba(0, 0, 0, 0.4) 100%) !important;
+    background-size: 64px 44px !important;
+    background-repeat: repeat !important;
+  }
+
+  /* Tableta de chocolate estándar para fondos editables */
+  .bg-chocolate-tablet-pattern {
+    background-color: #231007 !important;
+    background-image: 
+      linear-gradient(to bottom, rgba(255, 220, 180, 0.18) 1px, transparent 1px),
+      linear-gradient(to top, rgba(0, 0, 0, 0.75) 2.5px, transparent 2.5px),
+      linear-gradient(to right, rgba(255, 220, 180, 0.14) 1px, transparent 1px),
+      linear-gradient(to left, rgba(0, 0, 0, 0.70) 2.5px, transparent 2.5px),
+      linear-gradient(to right, #0d0402 3px, transparent 3px),
+      linear-gradient(to bottom, #0d0402 3px, transparent 3px),
+      linear-gradient(135deg, rgba(255, 240, 220, 0.06) 0%, transparent 45%, rgba(0, 0, 0, 0.35) 100%) !important;
+    background-size: 52px 36px !important;
+    background-repeat: repeat !important;
+  }
+
+  /* Tableta de chocolate sutil para el fondo general del sitio */
+  .bg-chocolate-tablet-subtle {
+    background-image: 
+      linear-gradient(to right, rgba(82, 44, 23, 0.04) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(82, 44, 23, 0.04) 1px, transparent 1px);
+    background-size: 64px 44px;
+    background-repeat: repeat;
+  }
+
+  /* Contenedor temático de maquinaria industrial y textura metálica (Acero Inoxidable & Chapa Diamantada) */
+  .bg-industrial-metallic {
+    background-color: #f3f6f9;
+    background-image: 
+      /* Brillo y bisel acerado direccional */
+      linear-gradient(135deg, rgba(255, 255, 255, 0.8) 0%, rgba(226, 232, 240, 0.5) 28%, rgba(255, 255, 255, 0.9) 50%, rgba(203, 213, 225, 0.45) 72%, rgba(255, 255, 255, 0.7) 100%),
+      /* Micro-rayado horizontal de acero inoxidable cepillado (Brushed Stainless Steel AISI 304) */
+      repeating-linear-gradient(0deg, rgba(148, 163, 184, 0.09) 0px, rgba(148, 163, 184, 0.09) 1px, transparent 1px, transparent 4px),
+      /* Micro-trama diamantada / Chapa estriada de maquinaria industrial */
+      linear-gradient(45deg, rgba(100, 116, 139, 0.06) 25%, transparent 25%),
+      linear-gradient(-45deg, rgba(100, 116, 139, 0.06) 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, rgba(100, 116, 139, 0.06) 75%),
+      linear-gradient(-45deg, transparent 75%, rgba(100, 116, 139, 0.06) 75%);
+    background-size: 100% 100%, 100% 4px, 20px 20px, 20px 20px, 20px 20px, 20px 20px;
+    background-repeat: no-repeat, repeat, repeat, repeat, repeat, repeat;
+  }
+
+  /* Textura de maquinaria industrial oscura para sobrecapas y héroes */
+  .bg-industrial-metallic-pattern {
+    background-color: #0b111e !important;
+    background-image: 
+      linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, transparent 40%, rgba(255, 255, 255, 0.03) 60%, transparent 100%),
+      repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.03) 0px, rgba(255, 255, 255, 0.03) 1px, transparent 1px, transparent 4px),
+      radial-gradient(circle at 50% 50%, rgba(148, 163, 184, 0.15) 1.5px, transparent 1.5px) !important;
+    background-size: 100% 100%, 4px 100%, 16px 16px !important;
+    background-repeat: no-repeat, repeat, repeat !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

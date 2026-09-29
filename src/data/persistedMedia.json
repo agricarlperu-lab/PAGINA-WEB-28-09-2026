@@ -1,0 +1,121 @@
+{
+  "images": {
+    "logo": "/logo_agricarl.png",
+    "banner-san-martin": "/videos/ant_tech_motion.mp4",
+    "video-presentacion": "/videos/presentacion_agricarl_1790112085941.mp4",
+    "img-division-agro": "/images/division-agro.jpg",
+    "img-sacha-inchi": "/images/sacha-inchi.jpg",
+    "img-sacha-aceite": "/images/sacha_aceite.jpg",
+    "img-sacha-almendra": "/images/sacha_almendra.jpg",
+    "img-sacha-semilla": "/images/sacha_semilla.jpg",
+    "img-cacao": "/images/cacao_grano_seco.jpg",
+    "carousel-cacao-1": "/images/cacao.jpeg",
+    "img-cacao-grano-seco": "/images/cacao_grano_seco.jpg",
+    "img-cacao-criollo": "/images/cacao_criollo.jpg",
+    "img-cacao-nibs": "/images/cacao_nibs.jpg",
+    "img-aguaje": "/images/aguaje_hero.jpg",
+    "img-aguaje-hero": "/images/aguaje_hero.jpg",
+    "img-aguaje-fresco": "/images/aguaje_fresco.jpg",
+    "img-aguaje-deshidratado": "/images/aguaje_deshidratado.jpg",
+    "img-coco": "/images/coco.jpg",
+    "img-coco-fresh": "/images/coco_fresh.jpg",
+    "img-coco-shredded": "/images/coco_shredded.jpg",
+    "img-coco-oil": "/images/coco_oil.jpg",
+    "img-refinadoras-chocolate": "/images/refinadoras_hero_bg.jpg",
+    "img-gestion-recaudacion": "/images/cobragood_pos.jpg",
+    "img-agricobros": "/images/cobragood_pos.jpg",
+    "img-cobragood-pos": "/images/cobragood_pos.jpg",
+    "img-cobragood-rutas": "/images/cobragood_rutas.jpg",
+    "img-cobragood-links": "/images/cobragood_links.jpg",
+    "img-gestor-contable": "/images/gestor-contable.jpg",
+    "img-gestor-compras": "/images/gestor_compras.jpg",
+    "img-gestor-ventas": "/images/gestor_ventas.jpg",
+    "img-gestor-ple": "/images/gestor_ple.jpg"
+  },
+  "backgrounds": {
+    "bg-hero": {
+      "image": "/videos/ant_tech_motion.mp4",
+      "opacity": 0.7,
+      "pattern": "grid",
+      "color": "#ffffff"
+    },
+    "bg-quienes-somos-quote": {
+      "image": "/videos/ant_tech_motion.mp4",
+      "opacity": 0.6,
+      "pattern": "grid",
+      "color": "#072518"
+    },
+    "bg-refinadoras-hero": {
+      "image": "/images/refinadoras_hero_bg.jpg",
+      "opacity": 0.78,
+      "pattern": "chocolate",
+      "color": "#090d16"
+    },
+    "bg-coco-hero": {
+      "image": "/videos/presentacion_agricarl.mp4",
+      "opacity": 0.88,
+      "pattern": "mesh",
+      "color": "#09140e"
+    },
+    "bg-gestor-benefits": {
+      "image": "/images/gestor-contable.jpg",
+      "opacity": 0.7,
+      "pattern": "grid",
+      "color": "#090d16"
+    },
+    "bg-division-agro": {
+      "image": "/images/bg_bg-division-agro.jpg",
+      "opacity": 0.7,
+      "pattern": "grid",
+      "color": "#090d16"
+    },
+    "bg-sacha-hero": {
+      "image": "/videos/presentacion_agricarl.mp4",
+      "opacity": 0.85,
+      "pattern": "mesh",
+      "color": "#0c1f13"
+    },
+    "bg-cacao-hero": {
+      "image": "/videos/presentacion_agricarl.mp4",
+      "opacity": 0.88,
+      "pattern": "mesh",
+      "color": "#1c0f07"
+    },
+    "bg-aguaje-hero": {
+      "image": "/videos/presentacion_agricarl.mp4",
+      "opacity": 0.88,
+      "pattern": "mesh",
+      "color": "#2a1205"
+    }
+  },
+  "fits": {
+    "logo": "cover",
+    "banner-san-martin": "cover",
+    "img-gestor-contable": "cover",
+    "img-division-agro": "cover",
+    "img-coco-fresh": "cover",
+    "img-sacha-inchi": "cover",
+    "img-sacha-aceite": "cover",
+    "img-sacha-almendra": "cover",
+    "img-sacha-semilla": "cover",
+    "img-aguaje": "cover",
+    "img-aguaje-hero": "cover",
+    "img-aguaje-fresco": "cover",
+    "img-aguaje-deshidratado": "cover",
+    "img-coco": "cover",
+    "img-coco-shredded": "cover",
+    "img-coco-oil": "cover",
+    "carousel-cacao-1": "cover",
+    "img-cacao": "cover",
+    "img-cacao-grano-seco": "cover",
+    "img-cacao-criollo": "cover",
+    "img-cacao-nibs": "cover",
+    "img-cobragood-pos": "cover",
+    "img-cobragood-rutas": "cover",
+    "img-cobragood-links": "cover",
+    "img-gestor-compras": "cover",
+    "img-gestor-ventas": "cover",
+    "img-gestor-ple": "cover"
+  },
+  "lastUpdated": "2026-09-29T01:41:46.511Z"
+}
